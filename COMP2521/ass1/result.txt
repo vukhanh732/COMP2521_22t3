@@ -1,0 +1,18 @@
+
+                    50
+
+                              45
+
+          40
+
+                              35
+
+                    30
+
+                              25
+
+20
+
+          10
+Searching for 100: Found -1
+Test TreeNext: Searching for 9: Found 10

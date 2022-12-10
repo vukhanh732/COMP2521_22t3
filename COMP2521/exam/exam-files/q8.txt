@@ -1,0 +1,12 @@
+Question 8
+
+(a) What is the maximum number of words that could be contained in the
+    trie? Justify your answer.
+n number of words in the trie. There are n nodes, we can mark every nodes to be finishing nodes, therefore it can have a maximum n numbers of words.
+
+
+(b) What is the minimum number of words that could be contained in the
+    trie? Justify your answer.
+m number of words. There are m leaf nodes, each leaf node is a finishing node, therefore it would have minimum m number of words in the tree.
+
+

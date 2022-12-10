@@ -1,0 +1,9 @@
+Question 2
+
+What is the maximum input size that can be processed? Justify your
+answer.
+
+An O(2^n) algorithm will take aprroximately 2^1000 time longer for an input size that 1000 time bigger.
+Therefore, the algorithm would take 2^1000 * 1 = 2^1000 days to process an input of 10000.
+
+

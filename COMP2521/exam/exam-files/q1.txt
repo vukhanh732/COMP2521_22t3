@@ -1,0 +1,11 @@
+Question 1
+
+What is the time complexity of the algorithm? Justify your answer.
+The time complexity of this algorithm is O(n^2). The time it takes
+to convert the algorithm into 2 subproblem is O(n). For every function call
+n will be become smaller by 4. Therefore, the complexity will be O(n*(n-4))
+Which is 
+O(n^2)
+
+
+

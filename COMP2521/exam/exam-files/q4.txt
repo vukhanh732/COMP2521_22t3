@@ -1,0 +1,13 @@
+Question 4
+
+(a) What are the value(s) in the root node (after performing the
+    insertions)?
+8, 12
+
+
+(b) What are the value(s) in each of the children of the root node
+    (after performing the insertions)?
+The children of the root nodes are
+[2,5] [10] [15]
+
+

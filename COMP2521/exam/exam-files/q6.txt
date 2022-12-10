@@ -1,0 +1,70 @@
+Question 6
+
+(a) Show the state of the array after the first four scans.
+
+(Replace the underlines with the array elements)
+
+After first pass:
+    [0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10]  [11]
+    26   71   96   15   55   98   4   46   41   14    5     100
+
+Second pass: 
+[0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10]  [11]
+ 26   71   15   55   96   4    46   41   14   5     98   100
+
+Third pass:
+[0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10]  [11]
+ 26   15   55   71   4    46   41   14   5    96     98   100
+
+Fourth pass:
+[0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10]  [11]
+ 15   26   55   4   46    41   14   5    71    96     98   100
+
+(b) Show the state of the array after each pass of the algorithm.
+
+Initial state:
+
+[0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10]  [11]
+98   26   71   96   15   55   100   4   46   41    14    5
+
+After the first pass:
+
+[0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10]  [11]
+26    98   71   96   15   55   4   100   41   46   5     14
+
+After the second pass:
+
+[0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10]  [11]
+26    71   96   98   4   15    55   100   5   14   41    46
+
+After the third pass:
+
+[0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10]  [11]
+ 4    15   26   71   96   98   5    14   41   46   55    100
+
+After the fourth pass:
+
+[0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]  [8]  [9]  [10]  [11]
+ 4    5    14   15   26   41   46   55   71   97   98    100
+(Copy the above template as many times as needed)
+
+
+
+(c) Identify two important differences between radix sort and merge
+    sort.
+
+
+
+    Give one situation where radix sort would be more suitable than
+    merge sort.
+    Radix sort is more suitable to use for small data set because it is fast and easy to implement. 
+    One situation that radix sort would be better is that, when we are required to sort a list of random integers 
+    in a small-medium data set. 
+
+
+    Give one situation where merge sort would be more suitable than
+    radix sort.
+    Merge sort is fast and easy to implement and it has a comlexity of O(n logn) for all cases. A situation that would be better to use
+    merge sort is when we are required to sort a linked-list for all cases(best, worst, average).
+
+

@@ -1,0 +1,11 @@
+Question 9
+
+Which data structure and algorithm would you use to solve the task?
+Justify your answer.
+
+For this problem I will use a graph data structure - adjacency matrix to solve. Each island is a vertex and the
+bridge will be edges. I used adjacency matrix because there are only 9 vertexes which won't use a lot of space, and 
+it is also fast and easy to implement. The algorithm I would use is minimum spanning tree to keep the cost as low as possible 
+and ensure that all islands are connected.  
+
+

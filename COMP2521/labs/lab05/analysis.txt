@@ -1,0 +1,31 @@
+
+NOTE:
+- Your time complexities should be expressed in big-O notation and be in
+  terms of n, where n is the number of people who  have  been  added  to
+  Friendbook.
+
+===============
+  FbUnfriend
+===============
+
+- Worst case time complexity: O(n)
+
+- Explanation: Have to traverse through a linked-list to find and unlink the node twice 
+O(n) + O(n)
+
+===============
+FbMutualFriends
+===============
+
+- Worst case time complexity: O(n^2)
+
+- Explanation: Have to traverse through a linked list for every node in the the first linked list
+
+===============
+ FbFriendRecs1
+===============
+
+- Worst case time complexity: O(n^4)
+
+- Explanation: 2 for loop and the FbMutualFriends function inside
+

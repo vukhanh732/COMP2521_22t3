@@ -1,0 +1,10 @@
+Question 10
+
+Which of the listed data structures is most suitable? Justify your
+answer. You must use time complexities as a basis for your justification.
+
+I would use hash table data structures. Hash table data structure has an average time complexities of O(1) for 
+all the operations asked in the question. We can easily delete a key-element pair with lowest key with the hash function which
+also takes O(1). Remove In-range is also easy because we know where key-elements pairs is stored from the hash function. For hash
+collision, I would use double hashing so deletion will be even faster since we know where the key is stored at. 
+

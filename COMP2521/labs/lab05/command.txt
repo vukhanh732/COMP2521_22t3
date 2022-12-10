@@ -1,0 +1,17 @@
++ vu 
++ tri
++ tuan
++ ben
++ anh
++ khai
+
+f vu tri
+f vu tuan
+f vu ben
+f vu anh
+f khai ben
+f khai anh 
+f khai tri
+f ben anh
+m vu khai
+r vu
